@@ -5,6 +5,37 @@ This project explores whether songs can be grouped using intrinsic musical and l
 
 Rather than treating genre as fixed ground truth, this project asks whether songs that sound similar or convey similar lyrical themes can be grouped in a more flexible and scalable way.
 
+## Technologies Used
+
+**Programming Language**
+- Python
+
+**Data Processing**
+- Pandas
+- NumPy
+
+**Machine Learning**
+- Scikit-learn (K-Means, MiniBatchKMeans, DBSCAN, Logistic Regression)
+
+**Natural Language Processing**
+- TF-IDF Vectorization
+- Truncated SVD
+
+**Dimensionality Reduction**
+- UMAP
+
+**Data Visualization**
+- Matplotlib
+- Seaborn
+
+**Development Environment**
+- Jupyter Notebook
+
+**Dataset**
+- Spotify Audio Features Dataset
+- Song Lyrics Dataset
+
+
 ## Business Motivation
 Genre labels are widely used in music recommendation systems, but they are often subjective, noisy, and incomplete. Manual labeling does not scale well, and many songs—especially niche or newly released tracks—may have unreliable or missing genre metadata.
 
